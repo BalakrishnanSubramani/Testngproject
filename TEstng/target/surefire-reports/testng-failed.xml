@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <parameter name="SearchCategory" value="Cell Phones &amp; Accessories"/>
+    <parameter name="Searchproduct" value="smasung"/>
+    <classes>
+      <class name="testng2.TestngwithparametersinXML">
+        <methods>
+          <include name="pageinfo"/>
+          <include name="closebrowser"/>
+          <include name="launcbrowserdriver"/>
+          <include name="searchproduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng2.TestngwithparametersinXML -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
